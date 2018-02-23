@@ -1,0 +1,27 @@
+<!-- THIS IS REALLY BAD CODE. IT'S JUST A JOKE -->
+<html>
+<head>
+  <title>success generator</title>
+  <style>
+body {
+  font-family: "Comic Sans", "Comic Sans MS", "Chalkboard", "ChalkboardSE-Regular", sans-serif;
+
+    padding-top:  50;
+}</style>
+</head>
+<body>
+  <script>
+  var count = 0;
+function myFunction() {
+  while (count < 1000){
+    document.getElementById("steps").innerHTML += "step " + count + ": bubble bath<br>";
+    count++;
+    }
+}
+</script>
+  <h1>jacqy success generator</h1>
+  <h3>this app will generate the necessary steps for jacqy to be successful</h3>
+  <button type="button" onclick="myFunction()">click to start</button>
+  <div id = "steps" style= "padding-left: 50"></div>
+</body>
+</html>
